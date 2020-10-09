@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "MSP Services"
 
         },
         "mspOfferDescription": {
@@ -15,14 +15,14 @@
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "Score Utica - Managed Azure Service"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "0559a737-cca2-4715-981c-47b29734a59f"
         },
         "authorizations": {
             "type": "array",
@@ -31,15 +31,11 @@
             },
             "defaultValue": [
                 { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
-                }, 
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group" 
-                }   
+                    "principalId": "e038dd69-1e55-46e2-9371-85673901d5c5",
+                    "principalIdDisplayName": "Score Utica Customer Admins",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                }
+  
             ]
         }              
     },
