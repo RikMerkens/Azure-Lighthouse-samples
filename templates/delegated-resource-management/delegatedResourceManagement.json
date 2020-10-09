@@ -48,7 +48,7 @@
             "type": "Microsoft.ManagedServices/registrationDefinitions",
             "apiVersion": "2019-09-01",
             "name": "[variables('mspRegistrationName')]",
-            "location": "westeurope"
+            "location": "westeurope",
             "properties": {
                 "registrationDefinitionName": "[parameters('mspOfferName')]",
                 "description": "[parameters('mspOfferDescription')]",
